@@ -1,0 +1,8 @@
+<button (click)="onGetUsers()">Get Github Users</button>
+<ul id="user-grid">
+  <li *ngFor="let user of users">
+    <a href="{{user.html_url}}" target="_blank">
+      <img src="{{user.avatar_url}}" width="100"/> {{user.login}}
+    </a>
+  </li>
+</ul>
