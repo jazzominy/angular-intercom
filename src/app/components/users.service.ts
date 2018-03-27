@@ -22,12 +22,12 @@ export class UsersService {
         .map(response => response.json())
         .catch(this.onError.bind(this))
         .subscribe(result => {
-          let event = {
+          let evt = {
             type: USER_RESULT,
             payload: result
           };
           
-          this.intercom.dispatch(event);
+          this.intercom.dispatch(evt);
         });
   }
   
