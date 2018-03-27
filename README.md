@@ -7,6 +7,7 @@ I will cover simple use case to demonstrate the use of intercom service. I will 
 Following figure explains how the intercom service works
 
 ![Intercom service](src/assets/intercom.png)
+
 (Excuse me for the above artwork :joy:)
 
 We use event literals (`event-literals.ts`) to define events that we can subscribe/dispatch to communicate between different entities (in our case component and service)
