@@ -6,4 +6,4 @@
 /karma.conf.js
 /protractor.conf.js
 /e2e/
-/src/assets/
+/dist/
