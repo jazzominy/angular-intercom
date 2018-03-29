@@ -1,4 +1,4 @@
-## Intercom :phone: for angular components, services and anything in general
+## Intercom :phone: for angular 4 components, services and anything in general
 
 As the word suggests, intercom aids communication between components, services and anything you can think of with in a project. It is based on publish/subscribe or observer pattern.
 
