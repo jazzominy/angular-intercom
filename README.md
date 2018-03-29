@@ -4,6 +4,8 @@ As the word suggests, intercom aids communication between components, services a
 
 I will cover simple use case to demonstrate the use of intercom service. I will query a list of github users and display it using this service.
 
+For the impatient, simple demo [here](https://jazzominy.github.io/ng-intercom/)
+
 Following figure explains how the intercom service works
 
 ![Intercom service](src/assets/intercom.png)
